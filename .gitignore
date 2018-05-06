@@ -1,4 +1,5 @@
 Pods/
+carthage/
 AWSAppSyncClient.xcworkspace/
 Podfile.lock
 docs/_site/
