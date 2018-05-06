@@ -5,6 +5,7 @@
 
 import Foundation
 import AWSCore
+//import Reachability
 import Reachability
 
 public enum ClientNetworkAccessState {
@@ -37,6 +38,7 @@ class SnapshotProcessController {
     init(endpointURL: URL, allowsCellularAccess: Bool = true) {
         self.endpointURL = endpointURL
         self.allowsCellularAccess = allowsCellularAccess
+
         reachability = Reachability(hostname: endpointURL.host!)
         reachability?.allowsCellularConnection = allowsCellularAccess
         NotificationCenter.default.addObserver(self, selector: #selector(checkForReachability(note:)), name: .reachabilityChanged, object: reachability)
