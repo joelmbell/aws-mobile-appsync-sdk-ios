@@ -68,7 +68,7 @@
 		17E009DA1FCAB234005031DB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009B81FCAB233005031DB /* Result.swift */; };
 		17E009DB1FCAB234005031DB /* NormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009B91FCAB234005031DB /* NormalizedCache.swift */; };
 		17E009DC1FCAB234005031DB /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009BA1FCAB234005031DB /* ApolloClient.swift */; };
-		E4EA2880833EDE9A29FEBC15 /* Pods_AWSAppSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621AB86198B779E235D8B962 /* Pods_AWSAppSync.framework */; };
+		DF4722BB209F7E2E0050F249 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DF4722BA209F7E2E0050F249 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,9 +139,7 @@
 		17E009B81FCAB233005031DB /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Apollo/Sources/Apollo/Result.swift; sourceTree = "<group>"; };
 		17E009B91FCAB234005031DB /* NormalizedCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalizedCache.swift; path = Apollo/Sources/Apollo/NormalizedCache.swift; sourceTree = "<group>"; };
 		17E009BA1FCAB234005031DB /* ApolloClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApolloClient.swift; path = Apollo/Sources/Apollo/ApolloClient.swift; sourceTree = "<group>"; };
-		621AB86198B779E235D8B962 /* Pods_AWSAppSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSAppSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD111EB21748A599F5796B74 /* Pods-AWSAppSync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSAppSync.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSAppSync/Pods-AWSAppSync.debug.xcconfig"; sourceTree = "<group>"; };
-		C830ED8003E746C4C6799F8E /* Pods-AWSAppSync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSAppSync.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSAppSync/Pods-AWSAppSync.release.xcconfig"; sourceTree = "<group>"; };
+		DF4722BA209F7E2E0050F249 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +147,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4EA2880833EDE9A29FEBC15 /* Pods_AWSAppSync.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				17915C5F1F5FA36300C4B73C /* AWSCore.framework */,
-				621AB86198B779E235D8B962 /* Pods_AWSAppSync.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,11 +204,11 @@
 		17DECF541F59F5FF004B0512 = {
 			isa = PBXGroup;
 			children = (
+				DF4722BA209F7E2E0050F249 /* Cartfile */,
 				17DECF601F59F5FF004B0512 /* AWSAppSyncClient */,
 				17DECF6B1F59F5FF004B0512 /* AWSAppSyncClientTests */,
 				17DECF5F1F59F5FF004B0512 /* Products */,
 				17915C5E1F5FA36300C4B73C /* Frameworks */,
-				E1D9078E4FB0753759F6C498 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,15 +291,6 @@
 			name = Apollo;
 			sourceTree = "<group>";
 		};
-		E1D9078E4FB0753759F6C498 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD111EB21748A599F5796B74 /* Pods-AWSAppSync.debug.xcconfig */,
-				C830ED8003E746C4C6799F8E /* Pods-AWSAppSync.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -330,7 +317,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17DECF721F59F5FF004B0512 /* Build configuration list for PBXNativeTarget "AWSAppSync" */;
 			buildPhases = (
-				4E996121F39BA74DB553A2CB /* [CP] Check Pods Manifest.lock */,
 				17DECF591F59F5FF004B0512 /* Sources */,
 				17DECF5A1F59F5FF004B0512 /* Frameworks */,
 				17DECF5B1F59F5FF004B0512 /* Headers */,
@@ -384,32 +370,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4722BB209F7E2E0050F249 /* Cartfile in Resources */,
 				17E009BD1FCAB234005031DB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4E996121F39BA74DB553A2CB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AWSAppSync-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17DECF591F59F5FF004B0512 /* Sources */ = {
@@ -588,7 +554,6 @@
 		};
 		17DECF731F59F5FF004B0512 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD111EB21748A599F5796B74 /* Pods-AWSAppSync.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -615,7 +580,6 @@
 		};
 		17DECF741F59F5FF004B0512 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C830ED8003E746C4C6799F8E /* Pods-AWSAppSync.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
