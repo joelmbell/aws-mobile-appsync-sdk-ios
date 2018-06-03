@@ -72,7 +72,6 @@
 		DF4722E0209F961B0050F249 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BC209F961A0050F249 /* AWSS3.framework */; };
 		DF4722E1209F961B0050F249 /* AWSUserPoolsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BD209F961A0050F249 /* AWSUserPoolsSignIn.framework */; };
 		DF4722E2209F961B0050F249 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BE209F961A0050F249 /* AWSSNS.framework */; };
-		DF4722E3209F961B0050F249 /* AWSAppSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BF209F961A0050F249 /* AWSAppSync.framework */; };
 		DF4722E4209F961B0050F249 /* AWSSES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C0209F961A0050F249 /* AWSSES.framework */; };
 		DF4722E5209F961B0050F249 /* AWSMachineLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C1209F961A0050F249 /* AWSMachineLearning.framework */; };
 		DF4722E6209F961B0050F249 /* AWSIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C2209F961A0050F249 /* AWSIoT.framework */; };
@@ -223,7 +222,6 @@
 				DF4722E0209F961B0050F249 /* AWSS3.framework in Frameworks */,
 				DF4722E1209F961B0050F249 /* AWSUserPoolsSignIn.framework in Frameworks */,
 				DF4722E2209F961B0050F249 /* AWSSNS.framework in Frameworks */,
-				DF4722E3209F961B0050F249 /* AWSAppSync.framework in Frameworks */,
 				DF4722E4209F961B0050F249 /* AWSSES.framework in Frameworks */,
 				DF4722E5209F961B0050F249 /* AWSMachineLearning.framework in Frameworks */,
 				DF4722E6209F961B0050F249 /* AWSIoT.framework in Frameworks */,
@@ -530,7 +528,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/AWSCore.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/AWSAppSync.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AWSAuthCore.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AWSAuthUI.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AWSAutoScaling.framework",
