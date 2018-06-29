@@ -68,6 +68,41 @@
 		17E009DA1FCAB234005031DB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009B81FCAB233005031DB /* Result.swift */; };
 		17E009DB1FCAB234005031DB /* NormalizedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009B91FCAB234005031DB /* NormalizedCache.swift */; };
 		17E009DC1FCAB234005031DB /* ApolloClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E009BA1FCAB234005031DB /* ApolloClient.swift */; };
+		DF36548120E5B646009B480E /* AWSAPIGateway.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D3209F961B0050F249 /* AWSAPIGateway.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548220E5B646009B480E /* AWSAuthCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DA209F961B0050F249 /* AWSAuthCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548320E5B646009B480E /* AWSAuthUI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CE209F961A0050F249 /* AWSAuthUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548420E5B646009B480E /* AWSAutoScaling.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DC209F961B0050F249 /* AWSAutoScaling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548520E5B646009B480E /* AWSCloudWatch.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D7209F961B0050F249 /* AWSCloudWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548620E5B646009B480E /* AWSCognito.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D8209F961B0050F249 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548720E5B646009B480E /* AWSCognitoAuth.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D6209F961B0050F249 /* AWSCognitoAuth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548820E5B646009B480E /* AWSCognitoIdentityProvider.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C5209F961A0050F249 /* AWSCognitoIdentityProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548920E5B646009B480E /* AWSCognitoIdentityProviderASF.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D0209F961A0050F249 /* AWSCognitoIdentityProviderASF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548A20E5B646009B480E /* AWSCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CF209F961A0050F249 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548B20E5B646009B480E /* AWSDynamoDB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D9209F961B0050F249 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548C20E5B646009B480E /* AWSEC2.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C4209F961A0050F249 /* AWSEC2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548D20E5B646009B480E /* AWSElasticLoadBalancing.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C9209F961A0050F249 /* AWSElasticLoadBalancing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548E20E5B646009B480E /* AWSFacebookSignIn.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C3209F961A0050F249 /* AWSFacebookSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36548F20E5B646009B480E /* AWSGoogleSignIn.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C8209F961A0050F249 /* AWSGoogleSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549020E5B646009B480E /* AWSIoT.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C2209F961A0050F249 /* AWSIoT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549120E5B646009B480E /* AWSKinesis.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DD209F961B0050F249 /* AWSKinesis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549220E5B646009B480E /* AWSKMS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DE209F961B0050F249 /* AWSKMS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549320E5B646009B480E /* AWSLambda.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DF209F961B0050F249 /* AWSLambda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549420E5B646009B480E /* AWSLex.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CB209F961A0050F249 /* AWSLex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549520E5B646009B480E /* AWSLogs.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D5209F961B0050F249 /* AWSLogs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549620E5B646009B480E /* AWSMachineLearning.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C1209F961A0050F249 /* AWSMachineLearning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549720E5B646009B480E /* AWSMobileAnalytics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CA209F961A0050F249 /* AWSMobileAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549820E5B646009B480E /* AWSMobileClient.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D1209F961A0050F249 /* AWSMobileClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549920E5B646009B480E /* AWSPinpoint.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CD209F961A0050F249 /* AWSPinpoint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549A20E5B646009B480E /* AWSPolly.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C7209F961A0050F249 /* AWSPolly.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549B20E5B646009B480E /* AWSRekognition.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DB209F961B0050F249 /* AWSRekognition.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549C20E5B646009B480E /* AWSS3.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BC209F961A0050F249 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549D20E5B646009B480E /* AWSSES.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C0209F961A0050F249 /* AWSSES.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549E20E5B646009B480E /* AWSSimpleDB.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722CC209F961A0050F249 /* AWSSimpleDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF36549F20E5B646009B480E /* AWSSNS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BE209F961A0050F249 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF3654A020E5B646009B480E /* AWSSQS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722C6209F961A0050F249 /* AWSSQS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF3654A120E5B646009B480E /* AWSUserPoolsSignIn.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BD209F961A0050F249 /* AWSUserPoolsSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF3654A220E5B646009B480E /* Reachability.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D4209F961B0050F249 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF3654A320E5B646009B480E /* SQLite.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722D2209F961B0050F249 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DF4722BB209F7E2E0050F249 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DF4722BA209F7E2E0050F249 /* Cartfile */; };
 		DF4722E0209F961B0050F249 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BC209F961A0050F249 /* AWSS3.framework */; };
 		DF4722E1209F961B0050F249 /* AWSUserPoolsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722BD209F961A0050F249 /* AWSUserPoolsSignIn.framework */; };
@@ -106,6 +141,54 @@
 		DF472303209F961B0050F249 /* AWSLambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4722DF209F961B0050F249 /* AWSLambda.framework */; };
 		DF9468DB20E1CA4A00E40482 /* AWSNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9468DA20E1CA4A00E40482 /* AWSNetworkTransport.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF36548020E5B53B009B480E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF36548120E5B646009B480E /* AWSAPIGateway.framework in Copy Frameworks */,
+				DF36548220E5B646009B480E /* AWSAuthCore.framework in Copy Frameworks */,
+				DF36548320E5B646009B480E /* AWSAuthUI.framework in Copy Frameworks */,
+				DF36548420E5B646009B480E /* AWSAutoScaling.framework in Copy Frameworks */,
+				DF36548520E5B646009B480E /* AWSCloudWatch.framework in Copy Frameworks */,
+				DF36548620E5B646009B480E /* AWSCognito.framework in Copy Frameworks */,
+				DF36548720E5B646009B480E /* AWSCognitoAuth.framework in Copy Frameworks */,
+				DF36548820E5B646009B480E /* AWSCognitoIdentityProvider.framework in Copy Frameworks */,
+				DF36548920E5B646009B480E /* AWSCognitoIdentityProviderASF.framework in Copy Frameworks */,
+				DF36548A20E5B646009B480E /* AWSCore.framework in Copy Frameworks */,
+				DF36548B20E5B646009B480E /* AWSDynamoDB.framework in Copy Frameworks */,
+				DF36548C20E5B646009B480E /* AWSEC2.framework in Copy Frameworks */,
+				DF36548D20E5B646009B480E /* AWSElasticLoadBalancing.framework in Copy Frameworks */,
+				DF36548E20E5B646009B480E /* AWSFacebookSignIn.framework in Copy Frameworks */,
+				DF36548F20E5B646009B480E /* AWSGoogleSignIn.framework in Copy Frameworks */,
+				DF36549020E5B646009B480E /* AWSIoT.framework in Copy Frameworks */,
+				DF36549120E5B646009B480E /* AWSKinesis.framework in Copy Frameworks */,
+				DF36549220E5B646009B480E /* AWSKMS.framework in Copy Frameworks */,
+				DF36549320E5B646009B480E /* AWSLambda.framework in Copy Frameworks */,
+				DF36549420E5B646009B480E /* AWSLex.framework in Copy Frameworks */,
+				DF36549520E5B646009B480E /* AWSLogs.framework in Copy Frameworks */,
+				DF36549620E5B646009B480E /* AWSMachineLearning.framework in Copy Frameworks */,
+				DF36549720E5B646009B480E /* AWSMobileAnalytics.framework in Copy Frameworks */,
+				DF36549820E5B646009B480E /* AWSMobileClient.framework in Copy Frameworks */,
+				DF36549920E5B646009B480E /* AWSPinpoint.framework in Copy Frameworks */,
+				DF36549A20E5B646009B480E /* AWSPolly.framework in Copy Frameworks */,
+				DF36549B20E5B646009B480E /* AWSRekognition.framework in Copy Frameworks */,
+				DF36549C20E5B646009B480E /* AWSS3.framework in Copy Frameworks */,
+				DF36549D20E5B646009B480E /* AWSSES.framework in Copy Frameworks */,
+				DF36549E20E5B646009B480E /* AWSSimpleDB.framework in Copy Frameworks */,
+				DF36549F20E5B646009B480E /* AWSSNS.framework in Copy Frameworks */,
+				DF3654A020E5B646009B480E /* AWSSQS.framework in Copy Frameworks */,
+				DF3654A120E5B646009B480E /* AWSUserPoolsSignIn.framework in Copy Frameworks */,
+				DF3654A220E5B646009B480E /* Reachability.framework in Copy Frameworks */,
+				DF3654A320E5B646009B480E /* SQLite.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1729A0841F9DAB2300F88594 /* MQTTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTClient.h; sourceTree = "<group>"; };
@@ -467,6 +550,7 @@
 				17DECF5B1F59F5FF004B0512 /* Headers */,
 				17DECF5C1F59F5FF004B0512 /* Resources */,
 				DF47232A209F975C0050F249 /* Carthage */,
+				DF36548020E5B53B009B480E /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -563,6 +647,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/AWSUserPoolsSignIn.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AWSAPIGateway.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AWSPolly.framework",
 			);
 			name = Carthage;
 			outputPaths = (
